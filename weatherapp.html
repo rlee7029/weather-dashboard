@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="title"><h1 >Weather Dashboard</h1></div>
+  <div class="container">
+    <div class="side-bar">
+      <h3>Search for a City:</h3>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search for a city">
+        <button id="btnSearch" onclick="searchCity()">Search</button>
+      </div>
+      <div id="search-history"></div>
+    </div>
+
+    <div class="main-column">
+      <div id="city-today" class="bordered">
+        <h2 id="city-today-city-name">City Name</h2>
+        <h5 id="city-today-temp">Temp :</h5>
+        <h5 id="city-today-wind">Wind :</h5>
+        <h5 id="city-today-humidity">Humidity :</h5>
+      </div>
+
+      <h3>5-Day Forecast</h3>
+
+      <div class="forecast-container">
+        
+        <div class="forecast-row">
+          <div id="forecast-1" class="forecast-box">
+            <h4 id="day-1">Day1</h4>
+            <img id="day-1-img" src="img.png" alt="Forecast Image"/>
+            <h5 id="day-1-temp">Temp :</h5>
+            <h5 id="day-1-wind">Wind :</h5>
+            <h5 id="day-1-humidity">Humidity :</h5>
+          </div>
+
+          <div id="forecast-2" class="forecast-box">
+            <h4 id="day-2">Day2</h4>
+            <img id="day-2-img" src="img.png" alt="Forecast Image"/>
+            <h5 id="day-2-temp">Temp :</h5>
+            <h5 id="day-2-wind">Wind :</h5>
+            <h5 id="day-2-humidity">Humidity :</h5>
+          </div>
+
+          <div id="forecast-3" class="forecast-box">
+            <h4 id="day-3">Day3</h4>
+            <img id="day-3-img" src="img.png" alt="Forecast Image"/>
+            <h5 id="day-3-temp">Temp :</h5>
+            <h5 id="day-3-wind">Wind :</h5>
+            <h5 id="day-3-humidity">Humidity :</h5>
+          </div>
+
+          <div id="forecast-4" class="forecast-box">
+            <h4 id="day-4">Day4</h4>
+            <img id="day-4-img" src="img.png" alt="Forecast Image"/>
+            <h5 id="day-4-temp">Temp :</h5>
+            <h5 id="day-4-wind">Wind :</h5>
+            <h5 id="day-4-humidity">Humidity :</h5>
+          </div>
+
+          <div id="forecast-5" class="forecast-box">
+            <h4 id="day-5">Day5</h4>
+            <img id="day-5-img" src="img.png" alt="Forecast Image"/>
+            <h5 id="day-5-temp">Temp :</h5>
+            <h5 id="day-5-wind">Wind :</h5>
+            <h5 id="day-5-humidity">Humidity :</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
